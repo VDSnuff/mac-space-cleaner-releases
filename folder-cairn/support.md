@@ -17,12 +17,12 @@ To change how long snapshots are kept, open **Settings → General → Local his
 1. Quit Folder Cairn from its menu bar menu.
 2. In Finder, choose **Go → Go to Folder** and paste the snapshot folder path below.
 
-   `~/Library/Containers/com.vdsnuff.mac-space-cleaner/Data/Library/Application Support/com.vdsnuff.mac-space-cleaner.storage/`
+   `~/Library/Containers/com.vdsnuff.folder-cairn/Data/Library/Application Support/com.vdsnuff.mac-space-cleaner.storage/`
 
 3. Move **only** `snapshots-v1.json` to the Trash. If the folder or file is absent, there is no snapshot file there to remove.
 
 ### Reset all local Folder Cairn data, including settings
 
-Quit the app. In Finder, use **Go → Go to Folder** to open `~/Library/Containers/`. Find the container at `~/Library/Containers/com.vdsnuff.mac-space-cleaner` (Finder may display its app name). Move only that container to the Trash.
+Quit the app. In Finder, use **Go → Go to Folder** to open `~/Library/Containers/`. Find the container at `~/Library/Containers/com.vdsnuff.folder-cairn` (Finder may display its app name). Move only that container to the Trash.
 
 These steps apply to the Store edition. Files in the folders you scanned stay in place. Items you move to the Trash can be recovered until you remove them from the Trash. Previous backups follow your backup settings. [Folder Cairn privacy policy](privacy.md)
